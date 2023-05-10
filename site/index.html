@@ -1,37 +1,105 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8" />
-    <title>NGINX on Railway</title>
-    <meta name="description" content="Choo Choo!" />
-
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <link rel="stylesheet" href="/styles.css?v=1.0" />
+    <title>My Website</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 0;
+        margin: 0;
+      }
+      
+      section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #f2f2f2;
+        position: relative; /* Added position relative */
+      }
+      
+      h1 {
+        font-size: 3em;
+        color: #333333;
+        margin-bottom: 20px;
+        position: absolute; /* Added position absolute */
+        top: 20px; /* Adjust the top value as needed */
+        left: 50%; /* Center the section name horizontally */
+        transform: translateX(-50%); /* Center the section name horizontally */
+      }
+      
+      p {
+        font-size: 1.5em;
+        color: #666666;
+        margin-bottom: 30px;
+        text-align: center;
+        max-width: 80%;
+      }
+      
+      .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+        margin: 50px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        max-width: 80%;
+      }
+      
+      .box img {
+        width: 100%;
+        max-width: 500px;
+        margin-bottom: 20px;
+      }
+    </style>
   </head>
-
   <body>
-    <main>
-      <img
-        src="https://railway.app/brand/logo-light.svg"
-        alt="Railway logo"
-        class="logo"
-      />
-
-      <h1>NGINX on Railway</h1>
-
-      <p>
-        Choo Choo! This is an example of an NGINX static site running on
-        Railway.
-        <a
-          href="https://github.com/railwayapp/starters/tree/master/examples/nginx"
-          >View source</a
-        >.
-      </p>
-    </main>
-
-    <script src="/script.js"></script>
+    <section>
+      <h1>Section 1</h1>
+      <div class="box">
+        <img src="Incognito.png" alt="Image 1">
+        <p>
+          <a href="https://www.welcometohumbledumb.store/">Click here</a> Link #1
+          <br>
+          <a href="https://ww.stopthemalware.live/">Click here</a> Link #2
+          <br>
+          <a href="https://www.please.stopwatchingmyscreen-couchmiddle.live/">Click here</a> Link #3
+        </p>
+      </div>
+    </section>
+    <section>
+      <h1>Section 2</h1>
+      <div class="box">
+        <img src="nebula.png" alt="Image 2">
+        <p>
+          
+        </p>
+      </div>
+    </section>
+    <section>
+      <h1>Section 3</h1>
+      <div class="box">
+        <img src="IN.png" alt="Image 3">
+        <p>
+          <a href="https://gointerstellar.app/">Click here</a> Link #1
+          <br>
+          <a href="https://skedaddle.up.railway.app/">Click here</a> Link #2
+        </p>
+      </div>
+    </section>
+    <section>
+      <h1>Section 4</h1>
+      <div class="box">
+        <img src="logo.png" alt="Image 4">
+        <p>
+          
+        </p>
+      </div>
+    </section>
   </body>
 </html>
